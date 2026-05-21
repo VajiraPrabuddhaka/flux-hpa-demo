@@ -4,6 +4,8 @@ metadata:
   name: php-apache
   labels:
     app: php-apache
+  annotations:
+    kustomize.toolkit.fluxcd.io/ssa: Merge
 spec:
   selector:
     matchLabels:
